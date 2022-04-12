@@ -1,8 +1,8 @@
-module SG {
+module DensityCalculator {
     requires javafx.fxml;
-    requires  javafx.controls;
-    requires java.base;
-    requires  javafx.graphics;
+    requires javafx.controls;
+    requires javafx.graphics;
+    requires com.jfoenix;
 
     opens sample;
 }
